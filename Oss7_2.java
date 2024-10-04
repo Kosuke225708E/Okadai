@@ -2,7 +2,7 @@ import java.util.Enumeration;
 import java.net.NetworkInterface;
 import java.net.InetAddress;
 
-public class Os7_2 {
+public class Oss7_2 {
     public static void main(String[] args) {
         try {
             // Retrieve all network interfaces
@@ -31,3 +31,4 @@ public class Os7_2 {
         }
     }
 }
+
