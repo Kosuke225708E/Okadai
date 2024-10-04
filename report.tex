@@ -1,0 +1,44 @@
+\documentclass[a4paper, 11pt, titlepage]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{listings}
+
+\title{11-4} 
+\author{225708E 上原康輔}  
+\date{\today}  
+
+
+
+\begin{document}
+
+\maketitle  
+\clearpage
+\tableofcontents
+\clearpage
+\section{実験概要}
+\indent 本実験では、Astroを使用して構築したWebサイトをAWS Amplifyを利用してデプロイする手順を検証しました。
+\subsection{手法}
+\indent 本実験では、AWS Amplifyを用いてサイトのデプロイを行いました。まず、Astroを用いてWebサイトを作成し、その後、GitHubにリポジトリを作成してコードをアップロードしました。次に、AWS Amplifyを使用してGitHubリポジトリと連携し、デプロイ作業を実施しました。
+\subsection{結果}
+\indent デデプロイが成功すると、以下のようなURLが生成されました。
+\begin{itemize}
+  \item \url{https://main.d3hbxpqbcyqtxe.amplifyapp.com/}
+\end{itemize}
+\indent また、こちらがGitHubリポジトリのURLです。
+\begin{itemize}
+  \item \url{https://github.com/Kosuke225708E/Astro}
+\end{itemize}
+\indent 次に、デプロイの前に設定したビルド設定ファイルの内容を以下に示します。
+\lstinputlisting[caption=ビルドの設定,label=a,frame = single]{./buil.txt}
+\indent 次に、サイト構築時のログは以下の通りです。
+\lstinputlisting[caption=ビルドの設定,label=a,frame=single,breaklines=true]{./BUILD.txt}
+\indent 最後に、デプロイ時のログを以下に示します。
+\lstinputlisting[caption=デプロイの設定,label=a,frame=single,breaklines=true]{./DEPLOY.txt}
+\indent デプロイが無事成功したため、AWS Amplifyに設定していたリソースは削除しました。
+\section{考察}
+\indent AstroサイトをAWS Amplifyを利用してデプロイする目標は、スムーズに達成できたと感じています。今回の経験を通して、AWS Amplifyのデプロイ機能の便利さを改めて実感しました。GitHubリポジトリとの連携により、ソースコードの変更を簡単にデプロイできる環境を構築できたことも大きなメリットでした。また、今回の実験を通じて、AWS Amplifyの機能に関する理解も深められたと思います。
+
+
+\end{document}

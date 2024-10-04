@@ -1,0 +1,65 @@
+2024-09-24T13:23:49.659Z [INFO]: # Cloning repository: git@github.com:Kosuke225708E/Astro.git
+2024-09-24T13:23:51.334Z [INFO]: 
+2024-09-24T13:23:51.335Z [INFO]: Cloning into 'Astro'...
+2024-09-24T13:23:51.335Z [INFO]: # Checking for Git submodules at: /codebuild/output/src2930943804/src/Astro/.gitmodules
+2024-09-24T13:23:51.343Z [INFO]: # Retrieving environment cache...
+2024-09-24T13:23:51.383Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
+2024-09-24T13:23:51.383Z [INFO]: ---- Setting Up SSM Secrets ----
+2024-09-24T13:23:51.383Z [INFO]: SSM params {"Path":"/amplify/d3hbxpqbcyqtxe/main/","WithDecryption":true}
+2024-09-24T13:23:51.428Z [WARNING]: !Failed to set up process.env.secrets
+2024-09-24T13:23:52.670Z [INFO]: No live updates for this build run
+2024-09-24T13:23:52.673Z [INFO]: # Retrieving cache...
+2024-09-24T13:23:52.713Z [INFO]: # Retrieved cache
+2024-09-24T13:23:57.252Z [INFO]: ## Starting Backend Build
+                                 ## Checking for associated backend environment...
+                                 ## No backend environment association found, continuing...
+                                 ## Completed Backend Build
+2024-09-24T13:23:57.258Z [INFO]: {"backendDuration": 0}
+                                 ## Starting Frontend Build
+                                 # Starting phase: preBuild
+                                 # Executing command: npm ci
+2024-09-24T13:24:21.327Z [INFO]: added 429 packages, and audited 430 packages in 13s
+2024-09-24T13:24:21.335Z [INFO]: 161 packages are looking for funding
+                                 run `npm fund` for details
+                                 found 0 vulnerabilities
+2024-09-24T13:24:21.345Z [INFO]: # Completed phase: preBuild
+                                 # Starting phase: build
+2024-09-24T13:24:21.345Z [INFO]: # Executing command: npm run build
+2024-09-24T13:24:21.614Z [INFO]: > tutorial@0.0.1 build
+                                 > astro check && astro build
+2024-09-24T13:24:24.682Z [INFO]: 13:24:24 [types] Generated 54ms
+2024-09-24T13:24:24.689Z [INFO]: 13:24:24 [check] Getting diagnostics for Astro files in /codebuild/output/src2930943804/src/Astro...
+2024-09-24T13:24:27.111Z [INFO]: Result (5 files):
+                                 - 0 errors
+                                 - 0 warnings
+                                 - 0 hints
+2024-09-24T13:24:28.537Z [INFO]: 13:24:28 [types] Generated 115ms
+2024-09-24T13:24:28.542Z [INFO]: 13:24:28 [build] output: "static"
+                                 13:24:28 [build] directory: /codebuild/output/src2930943804/src/Astro/dist/
+                                 13:24:28 [build] Collecting build info...
+                                 13:24:28 [build] ✓ Completed in 130ms.
+                                 13:24:28 [build] Building static entrypoints...
+2024-09-24T13:24:29.228Z [INFO]: 13:24:29 [vite] ✓ built in 656ms
+2024-09-24T13:24:29.229Z [INFO]: 13:24:29 [build] ✓ Completed in 688ms.
+2024-09-24T13:24:29.237Z [INFO]: generating static routes
+2024-09-24T13:24:29.241Z [INFO]: 13:24:29 ▶ src/pages/index.astro
+2024-09-24T13:24:29.241Z [INFO]: 13:24:29   └─ /index.html
+2024-09-24T13:24:29.246Z [INFO]: (+5ms)
+2024-09-24T13:24:29.246Z [INFO]: 13:24:29 ✓ Completed in 11ms.
+2024-09-24T13:24:29.248Z [INFO]: 13:24:29 [build] 1 page(s) built in 840ms
+2024-09-24T13:24:29.248Z [INFO]: 13:24:29 [build] Complete!
+2024-09-24T13:24:29.264Z [INFO]: # Completed phase: build
+                                 ## Completed Frontend Build
+2024-09-24T13:24:29.273Z [INFO]: ## Build completed successfully
+2024-09-24T13:24:29.274Z [INFO]: # Starting caching...
+2024-09-24T13:24:29.283Z [INFO]: # Creating cache artifact...
+2024-09-24T13:24:32.898Z [INFO]: # Created cache artifact
+2024-09-24T13:24:32.990Z [INFO]: # Uploading cache artifact...
+2024-09-24T13:24:34.003Z [INFO]: # Uploaded cache artifact
+2024-09-24T13:24:34.003Z [INFO]: # Caching completed
+2024-09-24T13:24:34.012Z [INFO]: # Starting build artifact upload process...
+2024-09-24T13:24:34.028Z [INFO]: # Uploading build artifact '__artifacts.zip'...
+2024-09-24T13:24:34.131Z [INFO]: # Build artifact upload completed
+2024-09-24T13:24:34.131Z [INFO]: # Starting environment caching...
+2024-09-24T13:24:34.131Z [INFO]: # Environment caching completed
+
